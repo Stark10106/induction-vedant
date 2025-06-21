@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: turtle-controller
+Version: 0.0.0
+Summary: Publisher node to control TurtleBot3 with geometry_msgs/Twist.
+Home-page: UNKNOWN
+Maintainer: stark
+Maintainer-email: your_email@example.com
+License: Apache License 2.0
+Platform: UNKNOWN
+
+UNKNOWN
+
