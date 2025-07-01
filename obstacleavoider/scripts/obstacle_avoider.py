@@ -18,7 +18,7 @@ class ObstacleAvoiderNode(Node):
 
     def scan_callback(self, msg):
         # Define front range: -10 to 10 degrees (assuming 360 readings, 1 degree each)
-        front_indices = list(range(330, 361)) + list(range(0, 31))
+        front_indices = list(range(330, 360)) + list(range(0, 31))
         front_ranges = [msg.ranges[i] for i in front_indices]
         # Filter valid ranges
         valid_ranges = [r for r in front_ranges if msg.range_min <= r <= msg.range_max]
