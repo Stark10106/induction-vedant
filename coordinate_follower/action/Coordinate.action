@@ -1,0 +1,10 @@
+# Goal
+float32 x    # target x (meters, map frame)
+float32 y    # target y (meters, map frame)
+---
+# Result
+bool success
+---
+# Feedback
+geometry_msgs/PoseStamped current_pose
+float32 distance_to_goal
